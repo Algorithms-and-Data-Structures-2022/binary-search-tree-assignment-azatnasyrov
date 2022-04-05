@@ -16,6 +16,7 @@ namespace assignment {
 
   void BinarySearchTree::Clear() {
     clear(root_);
+    root_ = nullptr;
   }
 
   std::optional<int> BinarySearchTree::Find(int key) const {
