@@ -105,6 +105,7 @@ namespace assignment {
       clear(node -> right);
       delete node;
     }
+    return;
   }
 
   Node* BinarySearchTree::find(int key, Node* node) const {
